@@ -1,0 +1,13 @@
+#header {
+    font-weight: normal;
+    font-size: 3rem;
+    color: $secondaryColor;
+
+    @media (max-width: $breakpoint2) {
+        font-size: 2rem;
+    }
+
+    @media (max-width: $breakpoint1) {
+        font-size: 1.5rem;
+    }
+}

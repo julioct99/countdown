@@ -1,0 +1,1 @@
+Countdown timer app built using HTML, CSS(Sass) and Vanilla JS.

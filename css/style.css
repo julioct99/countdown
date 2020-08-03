@@ -1,0 +1,63 @@
+/* COLOR PALETTE */
+/* FONT */
+/* MEDIA QUERIES BREAKPOINTS */
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background: #252525;
+  color: white;
+}
+
+#display-area {
+  width: 100%;
+  font-size: 10rem;
+  font-weight: 100;
+  font-family: "Roboto Mono", monospace;
+}
+
+@media (max-width: 1200px) {
+  #display-area {
+    font-size: 7.5rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #display-area {
+    font-size: 5rem;
+    text-align: center;
+  }
+}
+
+#end-time {
+  color: #fce3057a;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  #end-time {
+    font-size: 1rem;
+  }
+}
+
+#header {
+  font-weight: normal;
+  font-size: 3rem;
+  color: #fce3057a;
+}
+
+@media (max-width: 1200px) {
+  #header {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  #header {
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
